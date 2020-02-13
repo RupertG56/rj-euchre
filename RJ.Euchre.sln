@@ -1,0 +1,69 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{7EB5595C-40E3-4B59-9E6B-9378718B481B}"
+	ProjectSection(SolutionItems) = preProject
+		Local.testsettings = Local.testsettings
+		RJ.Euchre.vsmdi = RJ.Euchre.vsmdi
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RJ.Euchre.ConsoleApp", "RJ.Euchre.ConsoleApp\RJ.Euchre.ConsoleApp.csproj", "{818826F1-DD53-43C7-9EC1-AE22ACA316CD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RJ.Objects", "RJ.Objects\RJ.Objects.csproj", "{BAA97CBD-7182-4150-A5EC-CA9C626AA272}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RJ.Objects.Tests", "RJ.Objects.Tests\RJ.Objects.Tests.csproj", "{6795D939-7D9D-427F-9F29-738D36C980F0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "packages", "packages", "{5FCAF1F8-D778-4646-AC9D-0D2B82CCB59D}"
+	ProjectSection(SolutionItems) = preProject
+		packages\Newtonsoft.Json.6.0.1\lib\net40\Newtonsoft.Json.dll = packages\Newtonsoft.Json.6.0.1\lib\net40\Newtonsoft.Json.dll
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = RJ.Euchre.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{818826F1-DD53-43C7-9EC1-AE22ACA316CD}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{818826F1-DD53-43C7-9EC1-AE22ACA316CD}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{818826F1-DD53-43C7-9EC1-AE22ACA316CD}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{818826F1-DD53-43C7-9EC1-AE22ACA316CD}.Debug|x86.ActiveCfg = Debug|x86
+		{818826F1-DD53-43C7-9EC1-AE22ACA316CD}.Debug|x86.Build.0 = Debug|x86
+		{818826F1-DD53-43C7-9EC1-AE22ACA316CD}.Release|Any CPU.ActiveCfg = Release|x86
+		{818826F1-DD53-43C7-9EC1-AE22ACA316CD}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{818826F1-DD53-43C7-9EC1-AE22ACA316CD}.Release|Mixed Platforms.Build.0 = Release|x86
+		{818826F1-DD53-43C7-9EC1-AE22ACA316CD}.Release|x86.ActiveCfg = Release|x86
+		{818826F1-DD53-43C7-9EC1-AE22ACA316CD}.Release|x86.Build.0 = Release|x86
+		{BAA97CBD-7182-4150-A5EC-CA9C626AA272}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BAA97CBD-7182-4150-A5EC-CA9C626AA272}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BAA97CBD-7182-4150-A5EC-CA9C626AA272}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{BAA97CBD-7182-4150-A5EC-CA9C626AA272}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{BAA97CBD-7182-4150-A5EC-CA9C626AA272}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{BAA97CBD-7182-4150-A5EC-CA9C626AA272}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BAA97CBD-7182-4150-A5EC-CA9C626AA272}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BAA97CBD-7182-4150-A5EC-CA9C626AA272}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{BAA97CBD-7182-4150-A5EC-CA9C626AA272}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{BAA97CBD-7182-4150-A5EC-CA9C626AA272}.Release|x86.ActiveCfg = Release|Any CPU
+		{6795D939-7D9D-427F-9F29-738D36C980F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6795D939-7D9D-427F-9F29-738D36C980F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6795D939-7D9D-427F-9F29-738D36C980F0}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{6795D939-7D9D-427F-9F29-738D36C980F0}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{6795D939-7D9D-427F-9F29-738D36C980F0}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{6795D939-7D9D-427F-9F29-738D36C980F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6795D939-7D9D-427F-9F29-738D36C980F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6795D939-7D9D-427F-9F29-738D36C980F0}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{6795D939-7D9D-427F-9F29-738D36C980F0}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{6795D939-7D9D-427F-9F29-738D36C980F0}.Release|x86.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
